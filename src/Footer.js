@@ -13,7 +13,15 @@ function Footer() {
   return (
     <div className="footer">
       <div className="footer__left">
-        <p>Album and song details</p>
+        <img
+          className="footer__albumLogo"
+          src="https://i.pinimg.com/originals/30/1c/7d/301c7db778b12c357ad24b1dd55c51bb.png"
+          alt=""
+        />
+        <div className="footer__songInfo">
+          <h4>The Lazy Song</h4>
+          <p>Bruno Mars</p>
+        </div>
       </div>
 
       <div className="footer__center">
