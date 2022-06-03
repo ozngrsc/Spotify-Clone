@@ -22,6 +22,31 @@
     box-shadow: 0 4px 60px rgba(0, 0, 0, 0.5);
 }
 
+.body__icons {
+    display: flex;
+    align-items: center;
+}
+
+.body__icons > .MuiSvgIcon-root {
+    margin-right: 20px;
+}
+
+.body__shuffle {
+    font-size: 80px !important;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.body__songs {
+    margin: 20px -30px;
+}
+
+.body__shuffle:hover {
+    transition: 100ms transform ease-in;
+    transform: scale(1.08);
+}
+
 .body__infoText > h2 {
     font-size: 48px;
     margin-bottom: 10px;
